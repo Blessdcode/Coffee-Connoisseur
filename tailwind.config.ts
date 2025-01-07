@@ -8,9 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+     
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        purple: {
+          951: "rgba(79,70,229,1)",
+        },
+        gray: {
+          951: "hsla(0,0%, 100%, 0.4)",
+          952: "#373b64",
+        },
       },
     },
   },
